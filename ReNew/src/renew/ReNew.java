@@ -9,9 +9,9 @@ public class ReNew{
         int num1Add, num2Add, sum;
         
         System.out.println("Enter 2 numbers to add");
-        System.out.println("First Number: ");
+        System.out.print("First Number: ");
         num1Add = input.nextInt();
-        System.out.println("Second Number: ");
+        System.out.print("Second Number: ");
         num2Add = input.nextInt();
         sum = num1Add + num2Add;
         
@@ -25,50 +25,37 @@ public class ReNew{
         System.out.println("Enter 2 numbers to subtract");
         System.out.print("First Number: ");
         num1Sub = input.nextInt();
-        System.out.println("Second Number: ");
+        System.out.print("Second Number: ");
         num2Sub = input.nextInt();
         diff = num1Sub - num2Sub;
         
         System.out.println("The difference is: " + diff);
     }
     
-    
-    
-    
-    
-    // This is the method for Multiplication, Code By: LANZ
-    public void multiplication(){
-        int uno,dos,resultado;
-        
-        System.out.println("Enter 2 numbers to multiply");
-        System.out.println("First Number: ");
-        uno = input.nextInt();
-        System.out.println("Second Number: ");
-        dos = input.nextInt();
-        resultado = uno * dos;
-        
-        System.out.println("The product is: " + resulatado);
     }
+    
+    
+    
+    // This is the method for Multiplication
+    
+    /*write your code here!*/
     
     
     
     // This is the method for Division
     
     /*By Rashed*/
-    public static void division(){
-        int nOne, nTwo;
-        Scanner kb = new Scanner(System.in);
-
-        System.out.println("Division");
-
-        System.out.print("\nFirst Number: ");
-        nOne = kb.nextInt();
-
-        System.out.print("\nSecond Number: ");
-        nTwo = kb.nextInt();
-
-        kb.close();
-        System.out.println("\nSum: " + nOne + " / " + nTwo + " = " + (nOne / nTwo));
+    public void division(){
+        int num1quo, num2quo, quotient;
+        
+        System.out.println("Enter 2 numbers to divide");
+        System.out.print("First Number: ");
+        num1quo = input.nextInt();
+        System.out.print("Second Number: ");
+        num2quo = input.nextInt();
+        diff = num1quo/num2quo;
+        
+        System.out.println("The quotient is: " + quotient);
     }
     
     
@@ -77,7 +64,6 @@ public class ReNew{
         ReNew object = new ReNew();
         object.addition(); //calling the method addition
         object.subtraction(); //calling the method subtraction
-        object.multiplication(); //calling the method multiplication
         object.division(); //calling the method division
     }
 }
