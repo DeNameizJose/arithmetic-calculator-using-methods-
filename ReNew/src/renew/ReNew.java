@@ -73,11 +73,27 @@ public class ReNew{
     
     
     
+    // This is the method for Modulo Operator
+    public void modulo(){
+    int num1mod, num2mod, result;
+
+        System.out.println("Enter 2 numbers to get modulo");
+        System.out.println("First Number: ");
+        num1mod = input.nextInt();
+        System.out.println("Second Number: ");
+        num2mod = input.nextInt();
+        result = num1mod%num2mod;
+
+        System.out.println("The modulo is " + result);
+         }
+    
+    
     public static void main(String[]Args){
         ReNew object = new ReNew();
         object.addition(); //calling the method addition
         object.subtraction(); //calling the method subtraction
         object.multiplication(); //calling the method multiplication
         object.division(); //calling the method division
+        object.modulo(); //calling the method modulo
     }
 }
