@@ -39,7 +39,17 @@ public class ReNew{
     // This is the method for Multiplication
     
     /*write your code here!*/
-    
+    public static void multiplication(){
+        int num1Mul, num2Mul, product;
+        
+        System.out.println("Enter 2 numbers to multiply");
+        System.out.print("First Number: ");
+        num1Mul = input.nextInt();
+        System.out.print("Second Number: ");
+        num2Mul = input.nextInt();
+        product = num1Mul * num2Mul;
+        
+        System.out.println("The product is: " + product);
     
     
     // This is the method for Division
@@ -67,5 +77,6 @@ public class ReNew{
         ReNew object = new ReNew();
         object.addition(); //calling the method addition
         object.subtraction(); //calling the method subtraction
+        object.multiplication(); //calling the method multiplication
     }
 }
